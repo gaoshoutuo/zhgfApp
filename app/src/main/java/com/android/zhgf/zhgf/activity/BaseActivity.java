@@ -31,7 +31,7 @@ import java.util.List;
 /**
  * Created by TZXX001 on 2017/9/18.
  */
-
+//compare with
 public class BaseActivity extends FragmentActivity {
     protected final String TAG = "BaseActivity";
     private LinearLayout root_layout;
