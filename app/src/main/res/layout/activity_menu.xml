@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.zhgf.zhgf.activity.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85"
+            android:background="@drawable/menubackground"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/round_imageview"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ic_launcher"/>
+            <TextView
+                android:id="@+id/userNameTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/round_imageview"
+                android:layout_centerHorizontal="true"
+                android:text="用户姓名"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.20"
+            android:background="@drawable/shadow_154956"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.08"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="5dp"
+                android:text="职务 :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/usetUtilTv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.84"
+                android:gravity="center_vertical|left"
+                android:text="工程师"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.10"
+                android:gravity="center_vertical|left"
+                android:text="电话 :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/userTelTv"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="18912345678"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!--<GridView
+            android:id="@+id/menuGv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.50"
+            android:columnWidth="120dp"
+            android:gravity="center"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"></GridView>-->
+         <android.support.v4.view.ViewPager
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1.50"
+             android:scaleType="fitXY"
+             android:layout_gravity="center"
+             android:id="@+id/myviewpager"/>
+         <!--<LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.02"
+             android:orientation="horizontal"
+             android:background="@color/menubg_bottom">
+
+         </LinearLayout>-->
+
+        <GridView android:id="@+id/menuBottomGv"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.36"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:background="@drawable/shadow_154956"
+        />
+        <!--android:background="@color/menubg_bottom"-->
+    <!--<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.02"
+        android:orientation="horizontal"
+        >
+
+    </LinearLayout>-->
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

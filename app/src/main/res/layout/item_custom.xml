@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item_edit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <ImageView
+    android:id="@+id/img_item_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:src="@drawable/icons8_contacts48"/>
+
+    <TextView
+        android:id="@+id/txt_item_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_item_edit"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:text = "联系人"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/util_item_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_item_edit"
+        android:layout_below="@+id/txt_item_edit"
+        android:layout_marginTop="@dimen/dp_1"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:lines="1"
+        android:text = "基干民兵"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/tel_item_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/online_item_edit"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp_5"
+        android:lines="1"
+        android:text = "18888888888"
+        android:textSize="20dp" />
+    <TextView
+        android:id="@+id/online_item_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:lines="1"
+        android:text = "在线"
+        android:textSize="15dp"
+        android:textColor="@color/colorGreen"/>
+
+</RelativeLayout>

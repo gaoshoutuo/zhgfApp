@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- foreground color names array -->
+    <string-array name="server_names_array">
+        <item>中国移动</item>
+
+        <item>中国联通</item>
+
+        <item>中国电信</item>
+
+        <item>测试服务器</item>
+    </string-array>
+
+    <!-- foreground color values array -->
+    <string-array name="server_values_array">
+        <item>中国移动,223.95.172.3,9433</item>
+        <item>中国联通,60.12.187.102,443</item>
+        <item>中国电信,115.231.68.58,9433</item>
+        <item>测试服务器,112.11.127.22,443</item>
+
+    </string-array>
+    <string-array name="gpstime_names_array">
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+        <item>40秒</item>
+        <item>50秒</item>
+        <item>60秒</item>
+    </string-array>
+
+    <!-- foreground color values array -->
+    <string-array name="gpstime_values_array">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+
+
+    <string-array name="query_suggestions">
+        <item>0,市人武部,,0,</item>
+        <item>1,高桥,,0,</item>
+        <item>2,张国强,13819047139,1,</item>
+        <item>3,陆秋强,15868389707,1,</item>
+        <item>4,朱佳伟,15968347236,1,</item>
+        <item>5,沈建林,18767396323,1,</item>
+        <item>6,沈晓斌,15906838270,1,</item>
+        <item>7,褚培兴,18268370962,1,</item>
+        <item>8,王奇纬,13605836106,1,</item>
+        <item>9,王晓锋,15958341078,1,</item>
+        <item>10,钟哲远,13905839937,1,</item>
+        <item>11,方敏,13967376746,1,</item>
+        <item>12,李松,18857391232,1,</item>
+        <item>13,庄国伟,13867382487,1,</item>
+        <item>14,高佳斌,15257326987,1,</item>
+        <item>15,范其锋,13857378009,1,</item>
+        <item>16,顾建庆,15558226257,1,</item>
+        <item>17,施国强,18858361737,1,</item>
+        <item>18,石门,,0,</item>
+        <item>19,周鑫,18858360069,18,</item>
+        <item>20,郑晓伟,15990393810,18,</item>
+        <item>21,谢博涛,13819088845,18,</item>
+        <item>22,赵凯,13867372187,18,</item>
+        <item>23,王东,13867327887,18,</item>
+        <item>24,李培杰,15958328691,18,</item>
+        <item>25,方正,13605830873,18,</item>
+        <item>26,张云峰,15959399119,18,</item>
+        <item>27,徐伟丰,13819056987,18,</item>
+        <item>28,徐伟,15858319669,18,</item>
+        <item>29,何震,18258375130,18,</item>
+        <item>30,杨顺福,13819392381,18,</item>
+        <item>31,文少华,18157322897,18,</item>
+        <item>32,魏如富,13819308033,18,</item>
+        <item>33,沈冬元,13819362908,18,</item>
+
+
+    </string-array>
+</resources>

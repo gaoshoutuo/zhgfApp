@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen android:layout="@layout/preference_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="系统设置"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="服务器设置">
+
+        <ListPreference
+            android:layout="@layout/preference_item"
+            android:key="server"
+            android:title="服务器"
+            android:defaultValue="1"
+            android:entries="@array/server_names_array"
+            android:entryValues="@array/server_values_array"
+            android:summary="选择服务器"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="地图设置">
+        <com.android.zhgf.zhgf.tool.SeekBarPreference
+            android:key="key_seekbar"
+            android:max="60"
+            android:defaultValue="5"
+            android:title="地图实时上报时间"
+            android:summary="@string/settings_summary_seekbar" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/preference_category_widget"
+        android:title="智慧国防">
+
+        <Preference
+            android:layout="@layout/preference_item"
+            android:title="退出登录"/>
+    </PreferenceCategory>
+</PreferenceScreen>

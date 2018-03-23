@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp" >
+
+
+        <ImageView android:id="@+id/menuImageIv"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/android"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center|center_horizontal|center_vertical"
+
+            >
+        </ImageView>
+        <TextView android:id="@+id/menuNameTv"
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menuImageIv"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_centerHorizontal="true"
+            >
+        </TextView>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/icon_badge1"
+            android:text="1"
+            android:textColor="#f12345"
+            android:visibility="gone"
+            android:background="@drawable/cycle_roud_back"/>
+</RelativeLayout>
+
+
+</RelativeLayout>

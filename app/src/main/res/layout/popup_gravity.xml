@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_layout_bg"
+    android:paddingTop="5dp"
+    android:paddingEnd="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingStart="5dp">
+
+    <Button
+        android:id="@+id/likeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="5dp"
+        android:text="正" />
+
+    <Button
+        android:id="@+id/unlikeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="#43A047"
+        android:layout_marginBottom="5dp"
+        android:text="反" />
+
+    <Button
+        android:id="@+id/normalBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:background="#FFB300"
+        android:layout_marginBottom="5dp"
+        android:text="中" />
+
+</LinearLayout>
